@@ -1,0 +1,86 @@
+START_LEVEL
+level_name:Doctor who?
+ball_velocities:45,11 45,10 45,12 45,13 45,14 0,5 -45,10 -45,11 -45,12 -45,13 -45,14
+background:image(background_images/dwbg.jpg)
+paddle_speed:20
+paddle_width:160
+block_definitions:definitions/dw_block_defenitions.txt
+blocks_start_x:50
+blocks_start_y:80
+row_height:62
+num_blocks:26
+START_BLOCKS
+-xxxxx----x------------x-
+-x----x----x----------x-
+-x-----x----x--------x-
+-x-----x-----x------x-
+-x----x-------x-xx-x-
+-xxxxx--x------x--x-
+END_BLOCKS
+END_LEVEL
+
+# level 2
+# lack of creativity
+START_LEVEL
+level_name:I Dont Know
+ball_velocities:-60,15 -45,15 -25,11 -25,11 -15,10 -5,10 0,5 5,10 25,11 25,11 35,10 45,15 -60,15
+background:image(background_images/owl.jpg)
+paddle_speed:20
+paddle_width:160
+block_definitions:definitions/creativity_lack_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:30
+num_blocks:100
+START_BLOCKS
+---dd---c---c------c---cc----------cc--ccccccc----aaaa---------aa---aaaa-----bb--bbbb-----bbbbbbb-------b-
+---dd---c---c-----c-c---cc--------cc---cc---------aa--a-------aa---a----a----bb--b---b----bb-----------b-b
+---dd---ccccc----c---c---cc------cc----cc---------aa---a-----aa---a------a---bb--b----b---bbbbbbb-----b---b
+---dd---ccccc---ccccccc---cc----cc-----ccccccc----aa----a---aa----a------a---bb--b-----b--bb---------bbbbbbb
+---dd---c---c--c-------c---cc--cc------cc---------aa-----a-aa------a----a----bb--b----b---bb--------b-------b
+---dd---c---c-c---------c---cccc-------ccccccc----aa------aa---------aaa-----bb--bbbbb----bbbbbbb--b---------b
+END_BLOCKS
+END_LEVEL
+
+# level 3
+# Disney
+START_LEVEL
+level_name:Disney i guess
+ball_velocities:80,20 40,10 1,13 -40,10 -80,20
+background:image(background_images/bg_princcess.jpg)
+paddle_speed:20
+paddle_width:300
+block_definitions:definitions/disney_block_defenitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:18
+START_BLOCKS
+-zxwwxz-
+-wxzzxw-
+-xzwzxw-
+-
+END_BLOCKS
+END_LEVEL
+
+# level 4
+# final level! 
+START_LEVEL
+level_name: ED ED & Eddy
+ball_velocities:0,8 -30,15 30,15
+background:image(background_images/edybg.jpg)
+paddle_speed:20
+paddle_width:160
+block_definitions:definitions/edy_block_defenitions.txt
+blocks_start_x:50
+blocks_start_y:80
+row_height:65
+num_blocks:30
+START_BLOCKS
+ddddd***ddddd
+p*pp*****pp*p
+mm*m*****m*mm
+*
+dddd*****dddd
+END_BLOCKS
+END_LEVEL

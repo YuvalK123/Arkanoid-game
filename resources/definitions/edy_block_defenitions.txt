@@ -1,0 +1,15 @@
+# default values for blocks
+
+default height:65 width:50 stroke:color(black) fill-2:image(block_images/plank.jpg)
+
+# block definitions
+
+bdef symbol:d hit_points:2 fill:image(block_images/ed1.jpg)
+
+bdef symbol:p hit_points:2 fill:image(block_images/ed2.jpg) 
+bdef symbol:m hit_points:2 fill:image(block_images/ed3.jpg)
+
+
+# spacers definitions
+
+sdef symbol:* width:40

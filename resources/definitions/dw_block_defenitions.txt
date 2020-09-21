@@ -1,0 +1,11 @@
+# default values for blocks
+
+default height:62 width:32 hit_points:3 fill-3:image(block_images/tardis.jpg)
+
+# block definitions
+
+bdef symbol:x fill:image(block_images/david.jpg) fill-2:image(block_images/air.jpg)
+
+# spacers definitions
+
+sdef symbol:- width:32

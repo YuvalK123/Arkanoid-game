@@ -1,0 +1,12 @@
+# default values for blocks
+
+default height:100 width:100 hit_points:4 stroke:color(black) fill-4:image(block_images/stan.jpg)
+
+# block definitions
+
+bdef symbol:z fill-3:image(block_images/poka.jpg) fill-2:image(block_images/thor.jpg) fill:image(block_images/captain.jpg)
+bdef symbol:x fill-3:image(block_images/rapu.jpg) fill-1:image(block_images/ariel.jpg) fill-2:image(block_images/thor.jpg)
+bdef symbol:w fill-3:image(block_images/jesus.jpg) fill-2:image(block_images/ariel.jpg) fill:image(block_images/thor.jpg)
+# spacers definitions
+
+sdef symbol:- width:100
